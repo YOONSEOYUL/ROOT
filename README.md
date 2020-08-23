@@ -18,21 +18,21 @@ JDBC, Mybatis, Jquery, Json, JSP, REST API
 AWS EC2 (Ubuntu)
 # 제공 서비스
 ## 로그인과 출석체크
-**REST API, Oauth 2.0, JSON, net library InetAddress**
+**REST API, Oauth 2.0, JSON, net library InetAddress**<br>
 카카오 API를 이용해 사용자 정보를 확인한 후 인증을 통해 로그인 합니다.
 사용자 정보를 DB에 저장하고 회원정보 관리에 이용합니다.
 사용자는 출석하기 위해서 기기를 등록하고, 이후 IP 비교를 통해 출석체크를 하게 됩니다.
 관리자는 모든 회원의 출석 정보를 볼 수 있으며, 내용 변경 또한 가능합니다.
 ## 스케줄 알림, 캘린더, 실시간 시간 제공
-**Ajax, URI interceptor, Session**
+**Ajax, URI interceptor, Session**<Br>
 실시간 시간을 제공해주며, 날짜에 따른 일주일, 한달 일정을 알려줍니다.
 관리자에게만 접근이 허용된 Manage 메뉴를 통해 전체 일정을 관리합니다.
 ## 한자사전, 번역기
-**URL Encoder, regex, jsoup, JSON, Naver Open API**
+**URL Encoder, regex, jsoup, JSON, Naver Open API**<Br>
 한자 사전과 번역 기능은 작동 전 로그인 상태를 체크한 후 회원만 이용할 수 있도록 합니다. 비회원은 홈으로 돌아갑니다.
 한자 검색시 네이버 사전과 일본 한자 쓰기 웹페이지에서 제공하는 데이터를 받아서 제공합니다. 사전과 번역기능에서 Papago SMT를 이용해 번역하며, 인코딩 변환으로 한자를 파싱합니다.
 ## 한자 랭킹 시스템
-**Twitter Open API, Oauth 2.0**
+**Twitter Open API, Oauth 2.0**<br>
 일본 도쿄에 거주하는 트위터 이용자들을 대상으로 일상 생활에 대한 주제의 피드 내용을 기반 데이터로 하여 많이 사용된 한자를 추출해 랭킹으로 제공합니다. 이를 통해 상용한자를 알 수 있습니다.
 
 # 후기
